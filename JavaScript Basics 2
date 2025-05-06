@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .b{
+        background-color: skyblue;
+        border-color: red;
+    }
+    .b:hover{
+        background-color: green;
+    }
+</style>
 <body>
     <script>
-        var a = 20;
-        var b = 20;
+        var a = parseInt(prompt("Enter a no."));
+        var b = parseInt(prompt("Enter a 2nd no."));
         var c = a + b;
         var d = a + b * c;
-        alert("TO KNOW YOUR ANSWER CLICK OK");
+    
     </script>
 
     <p id="demo">HI!ARE YOU HERE FOR THE SOLUTIONS??</p>
@@ -24,7 +33,7 @@
 
         document.getElementById('second').innerHTML = 'Second Answer: ' + d;
 
-        document.getElementById('btn1').hidden = true; " hidden>
+        document.getElementById('btn1').hidden = true; " hidden class="b">
 
 <!-- btn2 -->
 
@@ -33,7 +42,7 @@
         
         document.getElementById('btn2').hidden = true;
 
-        document.getElementById('btn1').hidden = false; ">
+        document.getElementById('btn1').hidden = false; " class="b">
 
 
 </body>
