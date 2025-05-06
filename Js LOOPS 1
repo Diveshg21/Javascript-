@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FOR LOOP</h1>
+    <p id="loop"></p>
+    <script>
+var i;
+for(i=1;i<=10;i++)
+{
+    document.getElementById('loop').innerHTML=i+"<br>";
+}
+
+    </script>
+</body>
+</html> -->
+
+
+
+<!-- SARE VALUES KE LIYE!! -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>!!FOR 1-10 VALUES!!</h1>
+    <p id="loop"></p>
+    <script>
+var i,no=0;
+for(i=1;i<=10;i++)
+{
+   no+=i+"<br>";
+}
+
+document.getElementById('loop').innerHTML=no;
+
+    </script>
+</body>
+</html> -->
+
+
+<!-- IF CONDITION IS FALSE!! -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FOR FALSE</h1>
+    <p id="loop"></p>
+    <script>
+var i,no=0;
+for(i=16;i>=10;i--)
+{
+   no+=i+"<br>";
+}
+
+document.getElementById('loop').innerHTML=no;
+
+    </script>
+</body>
+</html>
