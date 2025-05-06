@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = 20;
+        var b = 20;
+        var c = a + b;
+        var d = a + b * c;
+        alert("TO KNOW YOUR ANSWER CLICK OK");
+    </script>
+
+    <p id="demo">HI!ARE YOU HERE FOR THE SOLUTIONS??</p>
+    <p id="second"></p>
+
+      <input type="button" id="btn1" value="SOLUTIONS" onClick="
+
+        document.getElementById('demo').innerHTML = 'First Answer: ' + c;
+
+        document.getElementById('second').innerHTML = 'Second Answer: ' + d;
+
+        document.getElementById('btn1').hidden = true; " hidden>
+
+<!-- btn2 -->
+
+        <input type="button" id="btn2" value="YES" onClick="
+        document.getElementById('demo').innerHTML = 'CLICK ON THE SOLUTION TO KNOW YOUR ANSWERS!!';
+        
+        document.getElementById('btn2').hidden = true;
+
+        document.getElementById('btn1').hidden = false; ">
+
+
+</body>
+</html>
