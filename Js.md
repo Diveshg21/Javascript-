@@ -1,2 +1,0 @@
-# Javascript-
-Js simple codes
