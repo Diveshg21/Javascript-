@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change</title>
+    <style>
+        .red {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 20px 20px 5px 5px;
+        }
+        .y {
+            background-color: yellowgreen;
+            color: white;
+            border: none;
+              border-radius: 5px;
+            padding: 20px 20px 5px 5px;
+        }
+        .b {
+            background-color: royalblue;
+            color: white;
+            border: none;
+              border-radius: 5px;
+            padding: 20px 20px 5px 5px;
+        }
+    </style>
+</head>
+<body>
+    <button id="red" class="red">black</button>
+    <button id="b" class="b">Blue</button>
+    <button id="y" class="y">Yellow</button>
+
+    <script>
+      
+let redButton = document.getElementById('red');redButton.addEventListener('click', function(e){ document.body.style.background = 'black';this.style.display = 'none'});                         
+
+let BB = document.getElementById('b');BB.addEventListener('click', function(e){ document.body.style.background = 'royalblue';this.style.display = 'none'});                           
+
+let YB = document.getElementById('y');YB.addEventListener('click', function(e){ document.body.style.background = 'yellowgreen';this.style.display = 'none'});   
+    </script>
+</body>
+</html>
